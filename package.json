@@ -9,7 +9,7 @@
     "security-check": "nsp check",
     "localtunnel": "l t --port 3000",
     "share": "npm-run-all --parallel open:src localtunnel",
-    "lint":"esw webpack.config.* src buildScripts --color",
+    "lint": "esw webpack.config.* src buildScripts --color",
     "lint:watch": "npm run lint -- --watch"
   },
   "author": "Bob",
@@ -45,7 +45,6 @@
     "open": "0.0.5",
     "rimraf": "2.5.4",
     "style-loader": "0.13.1",
-    "surge": "0.18.0",
     "webpack": "1.13.2",
     "webpack-dev-middleware": "1.8.4",
     "webpack-hot-middleware": "2.13.0",
