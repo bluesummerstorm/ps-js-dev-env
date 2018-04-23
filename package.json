@@ -19,7 +19,9 @@
   },
   "author": "Bob",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "tar": "^4.4.1"
+  },
   "devDependencies": {
     "babel-cli": "6.16.0",
     "babel-core": "6.17.0",
